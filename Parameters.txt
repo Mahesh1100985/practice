@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.0",
+  "parameters": {
+    "adminUsername": {
+      "value": "cherry"
+    },
+    "adminPassword": {
+      "value": "cherry@123456"
+    },
+    "publicIPname": {
+      "value": "cherrypublicIP2"
+    },
+    "location": {
+      "value": "eastus"
+    },
+    "vmname": {
+      "value": "cherryNewVM"
+    }
+  }
+}
